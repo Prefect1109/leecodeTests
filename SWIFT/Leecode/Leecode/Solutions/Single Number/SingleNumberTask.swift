@@ -1,12 +1,10 @@
 import Foundation
 
 class SingleNumberTask {
-    
+        
     private init() {}
     
-    static func shared() -> SingleNumberTask {
-        return SingleNumberTask()
-    }
+    static var shared = SingleNumberTask()
     
     func run() -> String {
         return String(singleNumber(input))

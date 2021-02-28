@@ -9,19 +9,25 @@ class SolutionManager {
     }
     
     func run() {
-        print("Test task: \(task())")
-        print("SingleNumber: \(singleNumber())")
+//        print("Test task:\t \(task())")
+//        print("SingleNumber:\t \(singleNumber())")
+        print("HappyNumber:\t \(happyNumber())")
     }
     
     //MARK: - Solutions
     
     // TaskName
     func task() -> String {
-        return Task.shared().run()
+        return Task.shared.run()
     }
             
     // Single number
     func singleNumber() -> String {
-        return SingleNumberTask.shared().run()
+        return SingleNumberTask.shared.run()
+    }
+    
+    // Happy number
+    func happyNumber() -> String {
+        return HappyNumberTask.shared.run()
     }
 }

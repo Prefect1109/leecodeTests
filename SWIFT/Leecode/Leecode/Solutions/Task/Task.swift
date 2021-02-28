@@ -2,9 +2,7 @@ class Task {
     
     private init() {}
     
-    static func shared() -> Task {
-        return Task()
-    }
+    static let shared = Task()
     
     func run() -> String {
         return "\(findTheFirstTwoAndReturnIndex(input))"

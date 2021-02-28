@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2304B3125EBBE7E00B47480 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2304B3025EBBE7E00B47480 /* HappyNumber.swift */; };
 		C23BCB4C25EA7BE800C44AD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23BCB4B25EA7BE800C44AD5 /* AppDelegate.swift */; };
 		C23BCB4E25EA7BE800C44AD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23BCB4D25EA7BE800C44AD5 /* ViewController.swift */; };
 		C23BCB5025EA7BEA00C44AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23BCB4F25EA7BEA00C44AD5 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2304B3025EBBE7E00B47480 /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		C23BCB4825EA7BE800C44AD5 /* Leecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23BCB4B25EA7BE800C44AD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C23BCB4D25EA7BE800C44AD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2304B2F25EBBE6A00B47480 /* HappyNumber */ = {
+			isa = PBXGroup;
+			children = (
+				C2304B3025EBBE7E00B47480 /* HappyNumber.swift */,
+			);
+			path = HappyNumber;
+			sourceTree = "<group>";
+		};
 		C23BCB3F25EA7BE800C44AD5 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 				C23BCB6425EA7D5600C44AD5 /* SolutionManager.swift */,
 				C23BCB6D25EA856F00C44AD5 /* Task */,
 				C23BCB6325EA7D3C00C44AD5 /* Single Number */,
+				C2304B2F25EBBE6A00B47480 /* HappyNumber */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -194,6 +205,7 @@
 				C23BCB6F25EA858200C44AD5 /* Task.swift in Sources */,
 				C23BCB4C25EA7BE800C44AD5 /* AppDelegate.swift in Sources */,
 				C23BCB6B25EA7E2F00C44AD5 /* SingleNumberTask.swift in Sources */,
+				C2304B3125EBBE7E00B47480 /* HappyNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
